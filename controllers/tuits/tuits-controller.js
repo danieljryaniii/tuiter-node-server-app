@@ -1,7 +1,7 @@
 import * as tuitsDao from './tuits-dao.js';
 
 const createTuit = async (req, res) => {
-    // const newTuit = req.body;
+    const newTuit = req.body;
     newTuit.userName = "NASA";
     newTuit.handle = "NASA";
     newTuit.avatarIcon = '/images/nasa.jpeg';

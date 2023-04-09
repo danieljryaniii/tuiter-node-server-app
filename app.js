@@ -1,5 +1,8 @@
 import express from 'express';
 import cors from 'cors';
+import mongoose from 'mongoose';
+
+mongoose.connect('mongodb://127.0.0.1:27017/tuiter);
 
 import HelloController from "./controllers/hello-controller.js";
 import UsersController from "./controllers/users/users-controller.js";

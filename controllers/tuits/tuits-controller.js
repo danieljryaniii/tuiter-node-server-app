@@ -4,7 +4,7 @@ const createTuit = async (req, res) => {
     const newTuit = req.body;
     newTuit.userName = "NASA";
     newTuit.handle = "NASA";
-    newTuit.avatarIcon = '/images/nasa.jpeg';
+    newTuit.avatarIcon = 'nasa.jpeg';
     newTuit.verified = true;
     newTuit.likes = 0;
     newTuit.dislikes = 0;

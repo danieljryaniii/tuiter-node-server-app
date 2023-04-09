@@ -6,6 +6,7 @@ const schema = mongoose.Schema({
     liked: Boolean,
     topic: String,
     userName: String,
+    handle: String,
     verified: Boolean,
     time: String,
     avatarIcon: String,
